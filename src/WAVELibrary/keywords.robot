@@ -14,7 +14,7 @@ ${ERROR_CROP_MARGIN}  50
 
 Open WAVE browser
     [Documentation]  Open Firefox with WAVE-toolbar extension installed.
-    Open browser  about:  browser=firefox  ff_profile_dir=${FF_PROFILE_DIR}
+    Open browser  about:blank  browser=firefox  ff_profile_dir=${FF_PROFILE_DIR}
 
 Check URL for accessibility errors
     [Documentation]  Open the given URL and check it for accessibility errors.
